@@ -20,3 +20,27 @@ ul.with-checkmark-bullets li::before {
 ul.with-checkmark-bullets li::marker {
     content: ''
 }
+
+.btn {
+    border-radius: 2.3rem;
+}
+
+section {
+    padding: 70px 0px;
+}
+
+.testimonios img {
+width: 75px;
+height: 75px;
+left: 50%;
+top: 0;
+transform: translate(-50%, -50%);
+
+}
+
+.testimonios .card {
+    padding-top: 58px;
+    background-color: #1c67d5;
+    color: white;
+    font-size: small;
+}
