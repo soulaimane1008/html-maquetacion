@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul.with-checkmark-bullets li::before {
+ content: '';
+ height:1em;
+ width:1em;
+ display:block;
+ float:left;
+ margin-left:-1.5em;
+ margin-top: 0.3em;
+ background-position:center;
+ background-repeat:no-repeat;
+ background-size:100%;
+ background-image: url('images/bullet.svg');
+}
+
+ul.with-checkmark-bullets li::marker {
+    content: ''
+}
